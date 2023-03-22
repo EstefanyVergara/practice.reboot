@@ -1,0 +1,41 @@
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+    justify-content: center;
+}
+
+
+.logo{
+    width: 7em;
+    height: 6em;
+
+}
+
+.list{
+    display: flex;
+    
+    
+}
+
+.lixkito{
+
+
+}
+
+.nav_links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+}
+
+.navBar{
+    display: flex;
+    flex-direction: row;
+
+}
