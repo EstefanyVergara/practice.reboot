@@ -5,10 +5,9 @@ import headerLogo from "../assets/logoheader.png";
 const Navbar = () => {
   return (
     <>
-      <div className="container">
-        <div className="navBar">
-          <img className="logo" src={headerLogo} alt="logo"></img>
-          <ul className="list">
+      <nav className="container">
+      <img className="logo" src={headerLogo} alt="logo"></img>
+          <ul className="nav_links">
             <li className="lixkito">
               <a href="index.html">INICIO</a>
             </li>
@@ -19,8 +18,7 @@ const Navbar = () => {
               <a href="/contacto">CONTACTO</a>
             </li>
           </ul>
-        </div>
-      </div>
+      </nav>
     </>
   );
 };
